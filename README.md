@@ -6,26 +6,26 @@
 
 A responsive React application for creating professional digital business cards with QR code functionality, containerized with Docker for easy deployment.
 
-![App Preview](https://via.placeholder.com/800x400?text=Professional+Card+Maker+Screenshot) <!-- Replace with actual screenshot -->
+![App Preview]([https://via.placeholder.com/800x400?text=Professional+Card+Maker+Screenshot](https://github.com/Rohit03022006/Professional_Card_Maker/blob/main/Screenshot%20from%202025-07-26%2004-22-45.png))
 
-## Features ✨
-- 📝 Dynamic business card form
-- 🖼️ Profile photo upload
-- 🔳 QR code generation
-- 📱 Fully responsive design
-- 🐳 Docker container support
-- 🔒 Form validation
+## Features 
+- Dynamic business card form
+- Profile photo upload
+- QR code generation
+- Fully responsive design
+- Docker container support
+- Form validation
 
 ## Prerequisites
 - Node.js ≥ 16
 - Docker ≥ 20
 - npm ≥ 8
 
-## Installation 🛠️
+## Installation 🛠
 
 ### Local Development
 ```bash
 git clone https://github.com/Rohit03022006/Professional_Card_Maker.git
 cd Professional_Card_Maker
 npm install
-npm start
+npm run dev
