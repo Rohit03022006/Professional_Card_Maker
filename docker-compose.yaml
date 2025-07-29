@@ -4,4 +4,4 @@ services:
   web:
     image: rohitxten/professional_card:latest
     ports:
-      - "8000:8000"
+      - "8000:80"
