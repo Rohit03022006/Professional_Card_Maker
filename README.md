@@ -30,25 +30,8 @@ A modern React application for creating professional digital business cards with
 - Docker v20+
 - npm v9+ or pnpm v8+
 ---
-### Project Structure
-```
-professional-card-maker/
-├── src/
-│ ├── assets/ # Static assets
-│ ├── components/ # Reusable components
-│ ├── hooks/ # Custom React hooks
-│ ├── styles/ # Global styles
-│ ├── utils/ # Utility functions
-│ ├── App.jsx # Main application component
-│ └── main.jsx # Application entry point
-├── public/ # Public assets
-├── .dockerignore
-├── Dockerfile
-├── vite.config.js # Vite configuration
-└── package.json
-```
----
 
+---
 ### Local Development
 ```bash
 
@@ -76,7 +59,6 @@ http://localhost:3000
 ### Core Features
 | Feature               | Status     | Tech Stack          |
 |-----------------------|------------|---------------------|
-| PDF Export           | Planned    | `react-pdf`         |
 | Dark Mode            | In Progress| CSS Variables       |
 | Social Media Links   | Backlog    | Icon Library        |
 | AI Bio Generator     | Research   | OpenAI API          |
@@ -89,8 +71,6 @@ gantt
     title Development Timeline
     dateFormat  YYYY-MM-DD
     section v1.3
-    PDF Export       :done, 2024-09-01, 14d
-    section v1.4
     Dark Mode       :active, 2024-10-01, 7d
     Performance Opt :2024-10-08, 10d
     section v2.0
