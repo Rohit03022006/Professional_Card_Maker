@@ -87,6 +87,30 @@
 .website-icon {
   fill: #faedf0;
 }
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #292c6d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #1a1c4a;
+}
 
 .qr-code {
   position: absolute;
