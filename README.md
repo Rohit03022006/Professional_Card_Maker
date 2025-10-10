@@ -1,6 +1,5 @@
 # Professional Card Maker 
 
-
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
@@ -64,18 +63,6 @@ http://localhost:3000
 | AI Bio Generator     | Research   | OpenAI API          |
 
 ---
-
-### Technical Roadmap
-```mermaid
-gantt
-    title Development Timeline
-    dateFormat  YYYY-MM-DD
-    section v1.3
-    Dark Mode       :active, 2024-10-01, 7d
-    Performance Opt :2024-10-08, 10d
-    section v2.0
-    AI Integration   :2024-11-01, 21d
-```
 ### Infrastructure Upgrades
 - [ ] Multi-arch Docker builds (`docker buildx`)
 - [ ] Kubernetes Helm charts
